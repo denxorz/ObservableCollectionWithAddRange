@@ -1,0 +1,1 @@
+nuget.exe pack ObservableCollectionEx/ObservableCollectionEx.csproj -properties Configuration=Release -build -outputdirectory .build -verbosity detailed -basepath .build\AnyCPU\Release
