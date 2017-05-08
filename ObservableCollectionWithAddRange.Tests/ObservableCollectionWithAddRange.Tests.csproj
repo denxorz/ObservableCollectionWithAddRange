@@ -6,8 +6,8 @@
     <ProjectGuid>{FE30D118-5BFB-4A55-95C5-5E68D10DD9E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Denxorz.ObservableCollectionEx.Tests</RootNamespace>
-    <AssemblyName>Denxorz.ObservableCollectionEx.Tests</AssemblyName>
+    <RootNamespace>Denxorz.ObservableCollectionWithAddRange.Tests</RootNamespace>
+    <AssemblyName>Denxorz.ObservableCollectionWithAddRange.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -47,16 +47,16 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="ObservableCollectionExTests.cs" />
+    <Compile Include="ObservableCollectionWithAddRangeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ObservableCollectionEx\ObservableCollectionEx.csproj">
-      <Project>{5DA65B27-4FAA-4BDF-9007-D3EECBADDE95}</Project>
-      <Name>ObservableCollectionEx</Name>
+    <ProjectReference Include="..\ObservableCollectionWithAddRange\ObservableCollectionWithAddRange.csproj">
+      <Project>{5da65b27-4faa-4bdf-9007-d3eecbadde95}</Project>
+      <Name>ObservableCollectionWithAddRange</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

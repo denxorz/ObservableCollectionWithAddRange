@@ -2,16 +2,16 @@
 using System.Collections.Specialized;
 using NUnit.Framework;
 
-namespace Denxorz.ObservableCollectionEx.Tests
+namespace Denxorz.ObservableCollectionWithAddRange.Tests
 {
     [TestFixture]
-    public class ObservableCollectionExTests
+    public class ObservableCollectionWithAddRangeTests
     {
         [Test]
         public void BaseListMethod_AddAndRemoveObjects_NormalListFunctionsApply()
         {
             // Arrange
-            var classUnderTest = new ObservableCollectionEx<int> { 1 };
+            var classUnderTest = new ObservableCollectionWithAddRange<int> { 1 };
 
             // Act
             classUnderTest.Clear();
@@ -27,7 +27,7 @@ namespace Denxorz.ObservableCollectionEx.Tests
         public void BaseObserverableCollectionEvents_AddAndRemoveObjects_NormalEventsApply()
         {
             // Arrange
-            var classUnderTest = new ObservableCollectionEx<int> { 1 };
+            var classUnderTest = new ObservableCollectionWithAddRange<int> { 1 };
 
             var listOfEvents = new List<NotifyCollectionChangedEventArgs>(3);
             classUnderTest.CollectionChanged += (s, e) => listOfEvents.Add(e);
@@ -57,7 +57,7 @@ namespace Denxorz.ObservableCollectionEx.Tests
         public void AddRange_AddARangeOfObjects_NormalListFunctionsApply()
         {
             // Arrange
-            var classUnderTest = new ObservableCollectionEx<int> { 1 };
+            var classUnderTest = new ObservableCollectionWithAddRange<int> { 1 };
 
             // Act
             classUnderTest.AddRange(new[] { 2, 3, 4 });
@@ -72,7 +72,7 @@ namespace Denxorz.ObservableCollectionEx.Tests
         public void AddRange_AddARangeOfObjects_OnlyOneEventIsGiven()
         {
             // Arrange
-            var classUnderTest = new ObservableCollectionEx<int> { 1 };
+            var classUnderTest = new ObservableCollectionWithAddRange<int> { 1 };
 
             var listOfEvents = new List<NotifyCollectionChangedEventArgs>(1);
             classUnderTest.CollectionChanged += (s, e) => listOfEvents.Add(e);
@@ -91,7 +91,7 @@ namespace Denxorz.ObservableCollectionEx.Tests
         public void ClearAndAddRange_AddARangeOfObjects_NormalListFunctionsApply()
         {
             // Arrange
-            var classUnderTest = new ObservableCollectionEx<int> { 1, 2, 3 };
+            var classUnderTest = new ObservableCollectionWithAddRange<int> { 1, 2, 3 };
 
             // Act
             classUnderTest.Add(4);
@@ -107,7 +107,7 @@ namespace Denxorz.ObservableCollectionEx.Tests
         public void ClearAndAddRange_AddARangeOfObjects_OnlyOneEventIsGiven()
         {
             // Arrange
-            var classUnderTest = new ObservableCollectionEx<int> { 1, 2, 3 };
+            var classUnderTest = new ObservableCollectionWithAddRange<int> { 1, 2, 3 };
 
             var listOfEvents = new List<NotifyCollectionChangedEventArgs>(1);
             classUnderTest.CollectionChanged += (s, e) => listOfEvents.Add(e);

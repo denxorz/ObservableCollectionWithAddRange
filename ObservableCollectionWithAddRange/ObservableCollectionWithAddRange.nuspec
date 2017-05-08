@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://raw.githubusercontent.com/denxorz/ObservableCollectionEx/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/denxorz/ObservableCollectionEx</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/denxorz/ObservableCollectionWithAddRange/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2017</copyright>

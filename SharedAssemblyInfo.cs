@@ -2,7 +2,7 @@ using System.Reflection;
 
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Denxorz")]
-[assembly: AssemblyProduct("ObservableCollectionEx")]
+[assembly: AssemblyProduct("ObservableCollectionWithAddRange")]
 [assembly: AssemblyCopyright("Copyright © Denxorz 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

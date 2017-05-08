@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionEx.Tests", "ObservableCollectionEx.Tests\ObservableCollectionEx.Tests.csproj", "{FE30D118-5BFB-4A55-95C5-5E68D10DD9E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionWithAddRange.Tests", "ObservableCollectionWithAddRange.Tests\ObservableCollectionWithAddRange.Tests.csproj", "{FE30D118-5BFB-4A55-95C5-5E68D10DD9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionEx", "ObservableCollectionEx\ObservableCollectionEx.csproj", "{5DA65B27-4FAA-4BDF-9007-D3EECBADDE95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionWithAddRange", "ObservableCollectionWithAddRange\ObservableCollectionWithAddRange.csproj", "{5DA65B27-4FAA-4BDF-9007-D3EECBADDE95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D778CCEB-DDC0-4E5E-8DF1-CF7508C8D3A1}"
 	ProjectSection(SolutionItems) = preProject

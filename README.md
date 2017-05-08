@@ -1,7 +1,7 @@
-# ObservableCollectionEx
+# ObservableCollectionWithAddRange
 
 ## What does it do?
-ObservableCollectionEx adds the AddRange and ClearAndAddRange methods to the ObservableCollection.
+ObservableCollectionWithAddRange adds the AddRange and ClearAndAddRange methods to the ObservableCollection.
 
 This can be used to speed up operations with WPF collection bindings that handle a lot of changes.
 
@@ -33,11 +33,11 @@ foreach (var item in newItems)
 //   CollectionChanged: Add
 ```
 
-What it looks like with ObservableCollectionEx:
+What it looks like with ObservableCollectionWithAddRange:
 
 ```C#
-// Denxorz.ObservableCollectionEx
-var collection = new ObservableCollectionEx<int> { 1, 2 };
+// Denxorz.ObservableCollectionWithAddRange
+var collection = new ObservableCollectionWithAddRange<int> { 1, 2 };
 collection.CollectionChanged += (s, e) => Console.WriteLine($"CollectionChanged: {e.Action}");
 
 // Array with new items

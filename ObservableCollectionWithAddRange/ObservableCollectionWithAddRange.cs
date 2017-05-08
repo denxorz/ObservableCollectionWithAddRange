@@ -2,13 +2,13 @@
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 
-namespace Denxorz.ObservableCollectionEx
+namespace Denxorz.ObservableCollectionWithAddRange
 {
     /// <summary>
     /// A <see cref="ObservableCollection{T}"/> with <see cref="AddRange"/> and <see cref="ClearAndAddRange"/> method.
     /// These methods only give one CollectionChanged event of type Reset, instead of one event per change.
     /// </summary>
-    public class ObservableCollectionEx<T> : ObservableCollection<T>
+    public class ObservableCollectionWithAddRange<T> : ObservableCollection<T>
     {
         /// <summary>
         /// Add given list of objects to the collection.

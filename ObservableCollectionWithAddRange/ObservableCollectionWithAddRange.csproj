@@ -7,8 +7,8 @@
     <ProjectGuid>{5DA65B27-4FAA-4BDF-9007-D3EECBADDE95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Denxorz.ObservableCollectionEx</RootNamespace>
-    <AssemblyName>Denxorz.ObservableCollectionEx</AssemblyName>
+    <RootNamespace>Denxorz.ObservableCollectionWithAddRange</RootNamespace>
+    <AssemblyName>Denxorz.ObservableCollectionWithAddRange</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <OutputPath>$(SolutionDir)\.build\$(Platform)\$(Configuration)\</OutputPath>
@@ -37,12 +37,12 @@
     <Compile Include="..\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
-    <Compile Include="ObservableCollectionWithAddRange.cs" />
     <Compile Include="ObservableCollectionEx.cs" />
+    <Compile Include="ObservableCollectionWithAddRange.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ObservableCollectionEx.nuspec" />
+    <None Include="ObservableCollectionWithAddRange.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
