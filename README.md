@@ -1,6 +1,6 @@
 # ObservableCollectionWithAddRange
 
-| [![Build Status](https://travis-ci.org/denxorz/ObservableCollectionWithAddRange.svg?branch=master)](https://travis-ci.org/denxorz/ObservableCollectionWithAddRange) | [![Coverage Status](https://coveralls.io/repos/github/denxorz/ObservableCollectionWithAddRange/badge.svg?branch=master)](https://coveralls.io/github/denxorz/ObservableCollectionWithAddRange?branch=master) | [![NuGet](https://buildstats.info/nuget/Denxorz.ObservableCollectionWithAddRange)](https://www.nuget.org/packages/Denxorz.ObservableCollectionWithAddRange/) | [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/denxorz/ObservableCollectionWithAddRange/blob/master/LICENSE) |
+ [![Build Status](https://travis-ci.org/denxorz/ObservableCollectionWithAddRange.svg?branch=master)](https://travis-ci.org/denxorz/ObservableCollectionWithAddRange) [![Coverage Status](https://coveralls.io/repos/github/denxorz/ObservableCollectionWithAddRange/badge.svg?branch=master)](https://coveralls.io/github/denxorz/ObservableCollectionWithAddRange?branch=master) [![NuGet](https://buildstats.info/nuget/Denxorz.ObservableCollectionWithAddRange)](https://www.nuget.org/packages/Denxorz.ObservableCollectionWithAddRange/) [![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/denxorz/ObservableCollectionWithAddRange/blob/master/LICENSE)
 
 ## What does it do?
 ObservableCollectionWithAddRange adds the AddRange and ClearAndAddRange methods to the ObservableCollection.
