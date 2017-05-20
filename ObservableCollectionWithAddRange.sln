@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D778CCEB-DDC0-4E5E-8DF1-CF7508C8D3A1}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.travis.yml = .travis.yml
 		LICENSE = LICENSE
 		package.bat = package.bat
 		README.md = README.md
