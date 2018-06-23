@@ -61,3 +61,10 @@ collection.ClearAndAddRange(newItems);
 * [Icons8](https://icons8.com/)
 * [NuGet](https://www.nuget.org/)
 * [GitHub](https://github.com/)
+
+
+## Versions & Release Notes
+
+version 2.0: Converted to .Net Standard 2.0
+
+version 1.0: First version (.Net Framework 4.5.2)
