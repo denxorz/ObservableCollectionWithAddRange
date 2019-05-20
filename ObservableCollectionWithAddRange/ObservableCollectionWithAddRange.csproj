@@ -1,23 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-	
+    <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
+
 	<OutputPath>$(SolutionDir)\.build\$(Platform)\$(Configuration)\</OutputPath>
-	
+
 	<Description>ObservableCollectionWithAddRange adds the AddRange and ClearAndAddRange methods to the ObservableCollection</Description>
 	<Company>Denxorz</Company>
 	<Authors>Dennis Geldhof</Authors>
-	<Version>2.0.0</Version>
+	<Version>2.1.0</Version>
 	<PackageLicenseUrl>https://raw.githubusercontent.com/denxorz/ObservableCollectionWithAddRange/master/LICENSE</PackageLicenseUrl>
 	<PackageProjectUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</PackageProjectUrl>
-	<Copyright>Copyright @ Denxorz 2018</Copyright>
+	<Copyright>Copyright @ Denxorz 2019</Copyright>
 	<PackageIconUrl>https://github.com/denxorz/ObservableCollectionWithAddRange/raw/master/Todo%20List-64.png</PackageIconUrl>
 	<RepositoryUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</RepositoryUrl>
 	<PackageTags>ObservableCollection INotifyCollectionChanged</PackageTags>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<PackageId>Denxorz.ObservableCollectionWithAddRange</PackageId>
-	
+
   </PropertyGroup>
 
 </Project>
