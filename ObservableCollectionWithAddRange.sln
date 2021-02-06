@@ -1,20 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionWithAddRange.Tests", "ObservableCollectionWithAddRange.Tests\ObservableCollectionWithAddRange.Tests.csproj", "{FE30D118-5BFB-4A55-95C5-5E68D10DD9E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObservableCollectionWithAddRange.Tests", "ObservableCollectionWithAddRange.Tests\ObservableCollectionWithAddRange.Tests.csproj", "{FE30D118-5BFB-4A55-95C5-5E68D10DD9E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollectionWithAddRange", "ObservableCollectionWithAddRange\ObservableCollectionWithAddRange.csproj", "{5DA65B27-4FAA-4BDF-9007-D3EECBADDE95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObservableCollectionWithAddRange", "ObservableCollectionWithAddRange\ObservableCollectionWithAddRange.csproj", "{5DA65B27-4FAA-4BDF-9007-D3EECBADDE95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D778CCEB-DDC0-4E5E-8DF1-CF7508C8D3A1}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		.travis.yml = .travis.yml
 		LICENSE = LICENSE
-		package.bat = package.bat
 		README.md = README.md
 		Todo List-64.png = Todo List-64.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{C0C3588F-2FAB-4851-9D3A-EFE86141D441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{A2058BF9-5C7C-4AD6-9BCB-F6B679AADAED}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 	EndProjectSection
 EndProject
 Global
@@ -34,6 +39,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2058BF9-5C7C-4AD6-9BCB-F6B679AADAED} = {C0C3588F-2FAB-4851-9D3A-EFE86141D441}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A18C467-4D00-43AC-A5BA-9F4348B7FDBC}
