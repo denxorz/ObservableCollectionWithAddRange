@@ -1,23 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net452;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net452;netstandard2.0;net5.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
 
-	<OutputPath>$(SolutionDir)\.build\$(Platform)\$(Configuration)\</OutputPath>
+    <OutputPath>$(SolutionDir)\.build\$(Platform)\$(Configuration)\</OutputPath>
 
-	<Description>ObservableCollectionWithAddRange adds the AddRange and ClearAndAddRange methods to the ObservableCollection</Description>
-	<Company>Denxorz</Company>
-	<Authors>Dennis Geldhof</Authors>
-	<Version>2.1.0</Version>
-	<PackageLicenseUrl>https://raw.githubusercontent.com/denxorz/ObservableCollectionWithAddRange/master/LICENSE</PackageLicenseUrl>
-	<PackageProjectUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</PackageProjectUrl>
-	<Copyright>Copyright @ Denxorz 2019</Copyright>
-	<PackageIconUrl>https://github.com/denxorz/ObservableCollectionWithAddRange/raw/master/Todo%20List-64.png</PackageIconUrl>
-	<RepositoryUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</RepositoryUrl>
-	<PackageTags>ObservableCollection INotifyCollectionChanged</PackageTags>
-	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>Denxorz.ObservableCollectionWithAddRange</PackageId>
+    <Description>ObservableCollectionWithAddRange adds the AddRange and ClearAndAddRange methods to the ObservableCollection</Description>
+    <Company>Denxorz</Company>
+    <Authors>Dennis Geldhof</Authors>
+    <Version>2.1.1</Version>    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</PackageProjectUrl>
+    <Copyright>Copyright @ Dennis Geldhof 2021</Copyright>    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</RepositoryUrl>
+    <PackageTags>ObservableCollection INotifyCollectionChanged</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Denxorz.ObservableCollectionWithAddRange</PackageId>
+    <PackageIcon>Todo List-64.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Todo List-64.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
