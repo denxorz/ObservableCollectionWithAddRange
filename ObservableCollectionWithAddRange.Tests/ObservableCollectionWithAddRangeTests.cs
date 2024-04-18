@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Collections.Specialized;
+﻿using System.Collections.Specialized;
 using NUnit.Framework;
 
 namespace Denxorz.ObservableCollectionWithAddRange.Tests;
@@ -43,13 +42,13 @@ public class ObservableCollectionWithAddRangeTests
         Assert.AreEqual(NotifyCollectionChangedAction.Reset, listOfEvents[0].Action);
 
         Assert.AreEqual(NotifyCollectionChangedAction.Add, listOfEvents[1].Action);
-        Assert.AreEqual(2, listOfEvents[1].NewItems[0]);
+        Assert.AreEqual(2, listOfEvents[1].NewItems?[0]);
 
         Assert.AreEqual(NotifyCollectionChangedAction.Remove, listOfEvents[2].Action);
-        Assert.AreEqual(2, listOfEvents[2].OldItems[0]);
+        Assert.AreEqual(2, listOfEvents[2].OldItems?[0]);
 
         Assert.AreEqual(NotifyCollectionChangedAction.Add, listOfEvents[3].Action);
-        Assert.AreEqual(3, listOfEvents[3].NewItems[0]);
+        Assert.AreEqual(3, listOfEvents[3].NewItems?[0]);
 
         Assert.AreEqual(4, listOfEvents.Count);
     }
