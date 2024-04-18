@@ -9,19 +9,24 @@
     <Description>ObservableCollectionWithAddRange adds the AddRange and ClearAndAddRange methods to the ObservableCollection</Description>
     <Company>Denxorz</Company>
     <Authors>Dennis Geldhof</Authors>
-    <Version>2.1.2</Version>    <PackageLicenseUrl></PackageLicenseUrl>
+    <Version>2.1.3</Version>
     <PackageProjectUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</PackageProjectUrl>
-    <Copyright>Copyright @ Dennis Geldhof 2024</Copyright>    <PackageIconUrl></PackageIconUrl>
+    <Copyright>Copyright @ Dennis Geldhof 2024</Copyright>   
     <RepositoryUrl>https://github.com/denxorz/ObservableCollectionWithAddRange</RepositoryUrl>
     <PackageTags>ObservableCollection INotifyCollectionChanged</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Denxorz.ObservableCollectionWithAddRange</PackageId>
     <PackageIcon>Todo List-64.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-
+    <Title>Input+Output Snapping Canvas</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\Todo List-64.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
