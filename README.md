@@ -65,6 +65,8 @@ collection.ClearAndAddRange(newItems);
 
 ## Versions & Release Notes
 
+version 2.1.2: Added .NET 8.0
+
 version 2.1.1: Added .NET 5.0
 
 version 2.1: Added .NET Framework 4.5.2 again
